@@ -23,7 +23,7 @@ xMule2 to linuksowy port klienta eMule.
 %prep
 %setup -q -n %{name}
 
-%patch0 -p1 
+%patch0 -p1
 
 %build
 cd src
@@ -42,7 +42,7 @@ install src/%{name} $RPM_BUILD_ROOT%{_bindir}
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files 
+%files
 %defattr(644,root,root,755)
 %doc Changelog TODO
 %attr(755,root,root) %{_bindir}/*
