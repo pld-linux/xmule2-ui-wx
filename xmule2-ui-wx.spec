@@ -5,7 +5,7 @@ Version:	0.1.3
 Release:	0.1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}-src.tar.gz
+Source0:	http://dl.sourceforge.net/xmule2/%{name}-%{version}-src.tar.gz
 # Source0-md5:	96c0f70551fc9383250a2c20efc01f73
 Patch0:		%{name}-makefile.patch
 URL:		http://xmule2.sf.net
