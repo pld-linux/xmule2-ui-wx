@@ -1,12 +1,12 @@
 Summary:	xMule2 New Generation
 Summary(pl):	xMule2 Nowa Generacja
 Name:		xmule2-ui-wx
-Version:	0.1.3
+Version:	0.1.6
 Release:	0.1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/xmule2/%{name}-%{version}-src.tar.gz
-# Source0-md5:	96c0f70551fc9383250a2c20efc01f73
+# Source0-md5:	b518a4f941f96900bb544fe66e4f588d
 Patch0:		%{name}-makefile.patch
 URL:		http://xmule2.sf.net
 BuildRequires:	wxGTK2-devel >= 2.4.0
