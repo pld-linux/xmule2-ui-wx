@@ -10,7 +10,7 @@ Source0:	http://dl.sourceforge.net/xmule2/%{name}-%{version}-src.tar.gz
 Patch0:		%{name}-makefile.patch
 URL:		http://xmule2.sf.net
 BuildRequires:	wxGTK2-devel >= 2.4.0
-BuildRequires:  gtk+2-devel
+BuildRequires:	gtk+2-devel
 BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
