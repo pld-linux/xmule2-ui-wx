@@ -1,8 +1,9 @@
---- xmule2-ui-wx/src/Makefile.orig	2003-08-09 22:07:50.000000000 +0200
-+++ xmule2-ui-wx/src/Makefile	2003-08-09 22:08:10.000000000 +0200
+diff -Nur xmule2-ui-wx-0.1.8.orig/src/Makefile xmule2-ui-wx-0.1.8/src/Makefile
+--- xmule2-ui-wx-0.1.8.orig/src/Makefile	2003-09-15 07:25:03.000000000 +0200
++++ xmule2-ui-wx-0.1.8/src/Makefile	2003-09-15 07:27:36.000000000 +0200
 @@ -1,4 +1,4 @@
--WXCONFIG = /usr/local/bin/wxgtk-2.4-config
-+WXCONFIG = /usr/bin/wxgtk2-2.4-config
+-WXCONFIG = wx-config
++WXCONFIG = wxgtk2-2.4-config
  CXX = $(shell $(WXCONFIG) --cxx)
  
  PROGRAM = xmule2-ui-wx
