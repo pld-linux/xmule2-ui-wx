@@ -1,5 +1,5 @@
 Summary:	xMule2 New Generation
-Summary(pl.UTF-8):   xMule2 Nowa Generacja
+Summary(pl.UTF-8):	xMule2 Nowa Generacja
 Name:		xmule2-ui-wx
 Version:	0.1.8
 Release:	0.1
