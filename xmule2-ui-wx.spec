@@ -1,5 +1,5 @@
 Summary:	xMule2 New Generation
-Summary(pl):	xMule2 Nowa Generacja
+Summary(pl.UTF-8):   xMule2 Nowa Generacja
 Name:		xmule2-ui-wx
 Version:	0.1.8
 Release:	0.1
@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xMule2 is a Linux port of eMule client.
 
-%description -l pl
+%description -l pl.UTF-8
 xMule2 to linuksowy port klienta eMule.
 
 %prep
